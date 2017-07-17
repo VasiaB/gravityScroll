@@ -87,12 +87,6 @@ $.fn.pos = function( options ){
             $(".map-box").eq(0).clone().css("left",(mapBoxWidth*2)+"px").appendTo(This);
         }
         showFPS.go();
-        // 快速点击事件，消除300ms
-        FastClick.attach(document.body);
-         /*取消默认行为*/
-        document.addEventListener('touchmove', function(event) {
-            event.preventDefault();
-        });
         // 手机旋转
         var o = new Orienter();
         o.handler = function(obj){
