@@ -4,7 +4,7 @@
 
 ## Demo
 
-[demo 点击查看](http://go.163.com/2015/public/team/ningbo/gravityScroll/)
+[Demo 点击查看](http://go.163.com/2015/public/team/ningbo/gravityScroll/)
 
 ![qr-code](img/qr-code.png)
 
