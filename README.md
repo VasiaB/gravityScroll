@@ -25,21 +25,21 @@
 
 ```
 $(function(){
-	// 初始化
-    $('.map').pos({
-        // 起始位置
-        'lastPageX': -100,
-        // 开启循环
-        'loop': true
-    });
-	//防止点击btn时swiper移动
-    $('.btn-box').on('touchmove',function(e){
-        e.stopPropagation();
-        e.preventDefault();
-    });
-    $('.hint-box').on('touchstart',function(){
-        $('.hint-box').removeClass('active');
-    });
+  // 初始化
+  $('.map').pos({
+    // 起始位置
+    'lastPageX': -100,
+    // 开启循环
+    'loop': true
+  });
+  //防止点击btn时swiper移动
+  $('.btn-box').on('touchmove',function(e){
+    e.stopPropagation();
+    e.preventDefault();
+  });
+  $('.hint-box').on('touchstart',function(){
+    $('.hint-box').removeClass('active');
+  });
 });
 ```
 
@@ -47,7 +47,7 @@ $(function(){
 
 ```html
 <div class="map">
-	<div class="map-box"></div>
+  <div class="map-box"></div>
 </div>
 ```
 
